@@ -1,0 +1,23 @@
+{
+  "name": "target-effect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/jcblw/wmplayer-effect.git",
+    "type": "git"
+  },
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.1.8",
+    "babelify": "^7.3.0",
+    "budo": "^9.4.7",
+    "perlin-simplex": "^0.0.2",
+    "raf": "^3.3.0",
+    "sound-board": "^2.2.3",
+    "tween.js": "^16.6.0"
+  },
+  "scripts": {
+    "start": "budo index.js --live -t babelify"
+  }
+}
